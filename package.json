@@ -1,0 +1,36 @@
+{
+  "name": "pwa-vue-test",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "vite build",
+    "lint": "eslint . --fix",
+    "dev": "vite",
+    "format": "prettier --write src/",
+    "preview": "vite preview",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "pinia": "^2.2.4",
+    "register-service-worker": "^1.7.2",
+    "typescript": "^5.6.3",
+    "vue": "^3.5.12",
+    "vue-router": "^4.4.5",
+    "web-push": "^3.6.7",
+    "webworker": "^0.8.4"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "@types/serviceworker": "^0.0.101",
+    "@vitejs/plugin-vue": "^5.1.4",
+    "@vitejs/plugin-vue-jsx": "^4.0.1",
+    "@vue/cli-plugin-pwa": "~5.0.0",
+    "@vue/eslint-config-prettier": "^10.0.0",
+    "eslint": "^9.13.0",
+    "eslint-plugin-vue": "^9.29.0",
+    "prettier": "^3.3.3",
+    "vite": "^5.4.10",
+    "vite-plugin-pwa": "^0.20.5"
+  },
+  "type": "module"
+}
