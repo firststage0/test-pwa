@@ -11,9 +11,12 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "buffer": "^6.0.3",
     "pinia": "^2.2.4",
+    "process": "^0.11.10",
     "register-service-worker": "^1.7.2",
     "typescript": "^5.6.3",
+    "util": "^0.12.5",
     "vue": "^3.5.12",
     "vue-router": "^4.4.5",
     "web-push": "^3.6.7",
@@ -22,6 +25,7 @@
   "devDependencies": {
     "@eslint/js": "^9.13.0",
     "@types/serviceworker": "^0.0.101",
+    "@types/web-push": "^3.6.4",
     "@vitejs/plugin-vue": "^5.1.4",
     "@vitejs/plugin-vue-jsx": "^4.0.1",
     "@vue/cli-plugin-pwa": "~5.0.0",

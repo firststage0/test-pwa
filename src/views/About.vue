@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import data from '@/data/data.json'
 import { useStore } from '@/stores/store'
+
 type Item = {
   Name: string
   Category: string
@@ -9,6 +10,7 @@ type Item = {
   ImageUrl: string
   Description: string
 }
+
 const store = useStore()
 const item: Item = data[store.itemID]
 console.log(item)
